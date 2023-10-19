@@ -1,0 +1,24 @@
+﻿<Window x:Class="Tema3_Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_Mosaico"
+        mc:Ignorable="d"
+        Title="Mosaico" MinHeight="500" MinWidth="500">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Text="" Height="100" Background="BlueViolet"/>
+            <TextBlock DockPanel.Dock="Left" TextWrapping="Wrap" Text="" Width="100" Background="BlueViolet"/>
+            <TextBlock DockPanel.Dock="Right" TextWrapping="Wrap" Text="" Width="100" Background="ForestGreen"/>
+            <TextBlock DockPanel.Dock="Bottom" TextWrapping="Wrap" Text="" Height="100" Background="ForestGreen"/>
+            <DockPanel LastChildFill="True">
+                <TextBlock DockPanel.Dock="Bottom" TextWrapping="Wrap" Text="" Height="100" Background="OrangeRed"/>
+                <TextBlock DockPanel.Dock="Left" TextWrapping="Wrap" Text="" Width="100" Background="OrangeRed"/>
+                <TextBlock DockPanel.Dock="Right" TextWrapping="Wrap" Text="" Width="100" Background="DeepPink"/>
+                <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Text="" Height="100" Background="DeepPink"/>
+                <TextBlock TextWrapping="Wrap" Text="" Background="Black"/>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</Window>
